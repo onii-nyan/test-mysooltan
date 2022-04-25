@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: #D3D3D3;
+}
+.home{
+  padding: 10px;
+}
+.home h3{
+  background-color: white;
+  padding: 10px;
 }
 .list-preview {
   padding: 10px 16px;

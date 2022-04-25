@@ -21,6 +21,7 @@ const Home = () => {
   
     return (
       <div className="home">
+          <h3>List Repository onii-nyaan</h3>
           {lists && <Lists lists={lists}/>} 
       </div>
     );
