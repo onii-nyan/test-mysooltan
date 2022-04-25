@@ -1,10 +1,12 @@
 const Lists = ({ lists }) => {
     return (
-      <div className="list-list">
+      <div className="list">
         {lists.map(list => (
           <div className="list-preview" key={list.id} >
-            <h2>{ list.name }</h2>
-            <p>{ list.language }</p>
+            <a href={list.html_url} target="_blank" rel="noreferrer">
+                <h2>{ list.name }</h2>
+                <p>{ list.language }</p>
+            </a>
           </div>
         ))}
       </div>
