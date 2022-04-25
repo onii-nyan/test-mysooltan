@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Lists from '../component/List'
 
 const Home = () => {
     const [lists, setLists] = useState(null)
@@ -20,7 +21,7 @@ const Home = () => {
   
     return (
       <div className="home">
-          <h1>test</h1>
+          {lists && <Lists lists={lists}/>} 
       </div>
     );
   }
