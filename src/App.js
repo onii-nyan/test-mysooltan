@@ -1,5 +1,4 @@
 import Home from './views/Home';
-import './App.css';
 import {
   BrowserRouter,
   Routes,
